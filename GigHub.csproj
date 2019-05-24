@@ -185,6 +185,10 @@
     <Compile Include="Migrations\201905241440339_OvvirideGigAndGenreTable.Designer.cs">
       <DependentUpon>201905241440339_OvvirideGigAndGenreTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201905241448593_PopulateGenreTable.cs" />
+    <Compile Include="Migrations\201905241448593_PopulateGenreTable.Designer.cs">
+      <DependentUpon>201905241448593_PopulateGenreTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -277,6 +281,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201905241440339_OvvirideGigAndGenreTable.resx">
       <DependentUpon>201905241440339_OvvirideGigAndGenreTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905241448593_PopulateGenreTable.resx">
+      <DependentUpon>201905241448593_PopulateGenreTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
