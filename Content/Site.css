@@ -1,6 +1,8 @@
 ﻿
 /*  Bootstrap  Override */
 
+
+
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
     color: #fff;
     background-color: #d23d3c;
@@ -77,4 +79,8 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+span.field-validation-error {
+    color: red;
+    font-weight: bold;
 }
