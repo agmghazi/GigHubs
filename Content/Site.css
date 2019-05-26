@@ -1,4 +1,21 @@
-﻿
+﻿.voffset4 {
+    margin-top: 80px
+}
+
+.voffset1 {
+    margin-top: 5px
+}
+
+.voffset2 {
+    margin-top: 10px
+}
+
+.voffset3 {
+    margin-top: 40px
+}
+
+
+
 /*  Bootstrap  Override */
 
 
@@ -55,6 +72,8 @@ body {
 
 
 
+
+
     /* Original Css   */
     body {
     padding-top: 90px;
@@ -73,6 +92,10 @@ body {
 .dl-horizontal dt {
     white-space: normal;
 }
+
+
+
+
 
 /* Set width on the form input elements since they're 100% wide by default */
 input,
@@ -104,6 +127,12 @@ span.field-validation-error {
         top: 0;
         left: 70px
     }
+
+
+
+.voffset {
+    margin-top: 2px
+}
 
 
     
