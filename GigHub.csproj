@@ -179,8 +179,9 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Content Include="Content\MyStyle.css" />
     <Compile Include="Controllers\AccountController.cs" />
-    <Compile Include="Controllers\AttendanceController.cs" />
-    <Compile Include="Controllers\FollwingsController.cs" />
+    <Compile Include="Controllers\API\AttendanceController.cs" />
+    <Compile Include="Controllers\API\FollwingsController.cs" />
+    <Compile Include="Controllers\API\GigsController.cs" />
     <Compile Include="Controllers\GigsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -221,6 +222,10 @@
     <Compile Include="Migrations\201905252135546_AddFollwering.Designer.cs">
       <DependentUpon>201905252135546_AddFollwering.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201905292243425_AddCancelPropertyToGig.cs" />
+    <Compile Include="Migrations\201905292243425_AddCancelPropertyToGig.Designer.cs">
+      <DependentUpon>201905292243425_AddCancelPropertyToGig.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\Attendance.cs" />
@@ -254,6 +259,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Notes.txt" />
+    <Content Include="Scripts\bootbox.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
@@ -344,6 +351,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201905252135546_AddFollwering.resx">
       <DependentUpon>201905252135546_AddFollwering.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905292243425_AddCancelPropertyToGig.resx">
+      <DependentUpon>201905292243425_AddCancelPropertyToGig.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
